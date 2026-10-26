@@ -1,0 +1,39 @@
+2026-10-24 18:43:30,411 ERROR API connection failed
+Traceback (most recent call last):
+  File "httplib2\__init__.py", line 1397, in _conn_request
+  File "httplib2\__init__.py", line 1162, in connect
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "main.py", line 993, in main
+  File "main.py", line 307, in connect_api
+  File "googleapiclient\_helpers.py", line 130, in positional_wrapper
+  File "googleapiclient\http.py", line 923, in execute
+  File "googleapiclient\http.py", line 222, in _retry_request
+  File "googleapiclient\http.py", line 191, in _retry_request
+  File "httplib2\__init__.py", line 1755, in request
+  File "httplib2\__init__.py", line 1475, in _request
+  File "httplib2\__init__.py", line 1404, in _conn_request
+httplib2.error.ServerNotFoundError: Unable to find the server at youtube.googleapis.com
+2026-10-24 18:43:53,968 ERROR API connection failed
+Traceback (most recent call last):
+  File "httplib2\__init__.py", line 1397, in _conn_request
+  File "httplib2\__init__.py", line 1148, in connect
+  File "socket.py", line 989, in getaddrinfo
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "main.py", line 993, in main
+  File "main.py", line 307, in connect_api
+  File "googleapiclient\_helpers.py", line 130, in positional_wrapper
+  File "googleapiclient\http.py", line 923, in execute
+  File "googleapiclient\http.py", line 222, in _retry_request
+  File "googleapiclient\http.py", line 191, in _retry_request
+  File "httplib2\__init__.py", line 1755, in request
+  File "httplib2\__init__.py", line 1475, in _request
+  File "httplib2\__init__.py", line 1404, in _conn_request
+httplib2.error.ServerNotFoundError: Unable to find the server at youtube.googleapis.com
