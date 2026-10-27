@@ -1,7 +1,5 @@
 # Video Enricher
 
-# Video Enricher
-
 **YouTube Video Research Tool**
 
 Video Enricher is a Python tool for researching YouTube videos, collecting publicly available statistics, comparing performance metrics, and exporting search results for further analysis.
